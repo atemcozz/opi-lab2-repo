@@ -59,4 +59,8 @@ public class K extends null implements I, C {
     public int hh() {
         return new java.util.Random().nextInt();
     }
+
+    public java.util.List<String> jj() {
+        return new java.util.ArrayList<String>();
+    }
 }
