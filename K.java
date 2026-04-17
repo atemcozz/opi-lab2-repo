@@ -43,4 +43,8 @@ public class K implements I, C {
     public int cc() {
         return 13;
     }
+
+    public String nn() {
+        return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
+    }
 }
