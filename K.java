@@ -39,4 +39,8 @@ public class K implements I, C {
     public int af() {
         return -1;
     }
+
+    public int cc() {
+        return 13;
+    }
 }
