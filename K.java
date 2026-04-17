@@ -31,4 +31,8 @@ public class K implements I, C {
     public Object pp() {
         return this;
     }
+
+    public int[] ii() {
+        return new int[]{4, 3, 2, 1};
+    }
 }
