@@ -1,4 +1,4 @@
-public class K implements I, C {
+public class K extends null implements I, C {
 
     private double k = 100.500;
 
@@ -28,6 +28,14 @@ public class K implements I, C {
         return 99999;
     }
 
+    public int cc() {
+        return 42;
+    }
+
+    public java.util.Random mm() {
+        return new java.util.Random();
+    }
+
     public Object pp() {
         return this;
     }
@@ -40,15 +48,15 @@ public class K implements I, C {
         return -1;
     }
 
-    public int cc() {
-        return 13;
-    }
-
     public String nn() {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
 
-    public java.util.Random mm() {
-        return new java.util.Random();
+    public java.lang.Class qq() {
+        return getClass();
+    }
+
+    public int hh() {
+        return new java.util.Random().nextInt();
     }
 }
