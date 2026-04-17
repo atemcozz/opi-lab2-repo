@@ -47,4 +47,8 @@ public class K implements I, C {
     public String nn() {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
+
+    public java.util.Random mm() {
+        return new java.util.Random();
+    }
 }
