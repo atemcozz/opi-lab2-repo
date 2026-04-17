@@ -27,8 +27,4 @@ public class K implements I, C {
     public long dd() {
         return 99999;
     }
-
-    public Object pp() {
-        return this;
-    }
 }
