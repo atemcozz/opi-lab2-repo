@@ -35,4 +35,8 @@ public class K implements I, C {
     public int[] ii() {
         return new int[]{4, 3, 2, 1};
     }
+
+    public int af() {
+        return -1;
+    }
 }
